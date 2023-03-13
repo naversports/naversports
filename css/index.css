@@ -1,5 +1,5 @@
 @import url('common.css');
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
 /* base */
 
 #wrapper {
@@ -12,6 +12,13 @@
     background: #3763C9;
 }
 
+#header .header_box .header_menu .header_login .login_nav{
+    border: 1px solid red;
+    margin-left: 15px;
+
+
+
+}
 
 #live_contents {
     background: #eff2f8;
@@ -64,7 +71,10 @@
 }
 
 #header .header_box .header_menu .header_login {
+
     float: right;
+    margin-top: 5px;
+ 
 }
 
 #header .header_box .header_menu .header_title h1 {
@@ -244,6 +254,7 @@
 
 #footer .footer_container .footer_nav {
     float: right;
+    font-weight: 700;
     padding: 5px;
 
 }
