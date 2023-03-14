@@ -1,6 +1,8 @@
 /* main contents */
 
 #main_contents .container {
+
+
     color: #000;
 
     display: flex;
@@ -13,7 +15,7 @@
     /* border: 1px solid red; */
 }
 
-/* title_menu */
+/* begin title_menu //////////////////////////////////////////////////////// */
 
 #main_contents .container .title_menu {
 
@@ -21,7 +23,7 @@
     justify-content: space-between;
     align-items: center;
 
-    border-bottom: 1px solid #eff2f8;
+    /* border-bottom: 1px solid #eff2f8; */
 
 }
 
@@ -136,6 +138,12 @@
     border-left: 1px solid #eff2f8;
     border-right: 1px solid #eff2f8;
     padding: 10px;
+
+
+}
+
+#main_contents .container .creator_video ul {
+    margin: 5px;
 }
 
 #main_contents .container .creator_video h2 {
@@ -220,6 +228,7 @@
 
 #main_contents .container .title_menu .creator_video ul li .text_area {
     flex: 2;
+    padding: 5px 0 5px 15px;
 }
 
 #main_contents .container .title_menu .creator_video ul li .text_area .title {
@@ -232,7 +241,214 @@
 #main_contents .container .title_menu .creator_video ul li .text_area .view {
     text-align: left;
     color: rgb(169, 164, 178);
-    margin: 5px;
+    margin: 15px 5px 5px 5px;
+}
+
+
+/* end title_menu //////////////////////////////////////////////////////// */
+
+
+
+
+
+
+/* begin best_video //////////////////////////////////////////////////////// */
+
+
+
+
+
+
+#main_contents .container .best_video .text_area {
+
+    margin: 10px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#main_contents .container .best_video .container ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#main_contents .container .best_video .container ul a .img {
+    border-radius: 15px;
+
+    width: 95%;
+    height: 150px;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+#main_contents .container .best_video .container ul a .img .rank {
+    font-weight: 700;
+    color: #fff;
+    font-size: 36px;
+    text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+
+    position: absolute;
+    top: 100px;
+
+    left: 15px;
+
+}
+
+#main_contents .container .best_video .container ul a .img .time {
+    position: absolute;
+
+    top: 110px;
+    left: 190px;
+
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+
+    border-radius: 2px;
+
+
+
+
+}
+
+#main_contents .container .best_video .container ul a .img1 {
+    background: url("/img/bestimg1.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img2 {
+    background: url("/img/bestimg2.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img3 {
+    background: url("/img/bestimg3.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img4 {
+    background: url("/img/bestimg4.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img5 {
+    background: url("/img/bestimg5.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img6 {
+    background: url("/img/bestimg6.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img7 {
+    background: url("/img/bestimg7.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img8 {
+    background: url("/img/bestimg8.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img9 {
+    background: url("/img/bestimg9.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img10 {
+    background: url("/img/bestimg10.jpeg") no-repeat center/cover;
+}
+
+
+#main_contents .container .best_video .container ul a .img11 {
+    background: url("/img/bestimg11.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img12 {
+    background: url("/img/bestimg12.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img13 {
+    background: url("/img/bestimg13.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img14 {
+    background: url("/img/bestimg14.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img15 {
+    background: url("/img/bestimg15.png") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img16 {
+    background: url("/img/bestimg16.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img17 {
+    background: url("/img/bestimg17.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img18 {
+    background: url("/img/bestimg18.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img19 {
+    background: url("/img/bestimg19.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul a .img20 {
+    background: url("/img/bestimg20.jpeg") no-repeat center/cover;
+}
+
+#main_contents .container .best_video .container ul li {
+    width: 20%;
+    height: fit-content;
+
+}
+
+
+#main_contents .container .best_video .container ul li a {
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+#main_contents .container .best_video .container ul li a .text_area {
+    width: 100%;
+
+    padding: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#main_contents .container .best_video .container ul li a:hover .text_area {
+    text-decoration: underline;
+}
+
+#main_contents .container .best_video .text_area {
+    margin-bottom: 20px;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+}
+
+#main_contents .container .best_video .text_area h3 {
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+#main_contents .container .best_video .text_area h3 span {
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(169, 164, 178);
+}
+
+#main_contents .container .best_video .text_area .information {
+    color: rgb(169, 164, 178);
 }
 
 
@@ -243,22 +459,9 @@
 
 
 
+/* end best_video //////////////////////////////////////////////////////// */
 
 
-
-/* title_menu */
-
-
-
-
-
-
-
-
-
-#main_contents .container .best_video {
-    border: 1px solid red;
-}
 
 #main_contents .container .news2 {
     border: 1px solid red;
