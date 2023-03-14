@@ -8,8 +8,6 @@
 #wrapper * {
     text-align: center;
     font-size: 16px;
-
-    /* border: 1px solid red; */
 }
 
 
@@ -356,30 +354,29 @@
 /* //////////////////////////////////// end live menu */
 
 
-
-
-
-
 /* begin main_contents */
 
 
 #main_contents .banner1 {
     width: 15%;
-    float: left;
+    flex: 1;
 }
 
 
+
 #main_contents .banner1 img {
+    margin-top: 100px;
     width: 80%;
 }
 
 
 #main_contents .banner2 {
-    float: right;
     width: 15%;
+    flex: 1;
 }
 
 #main_contents .banner2 img {
+    margin-top: 150px;
     width: 80%;
 }
 

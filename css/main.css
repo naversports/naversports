@@ -2,7 +2,6 @@
 
 #main_contents .container {
 
-
     color: #000;
 
     display: flex;
@@ -11,6 +10,7 @@
 
     height: fit-content;
 
+    flex: 3;
 
     /* border: 1px solid red; */
 }
@@ -111,6 +111,7 @@
 #main_contents .container .title_menu .news_container ul li a .text_area .news_from {
     padding-top: 5px;
     color: rgb(169, 164, 178);
+
 }
 
 
@@ -171,7 +172,9 @@
     width: 100%;
 
     padding: 12px 0;
+
 }
+
 
 #main_contents .container .title_menu .creator_video ul li a .creator_img {
     /* flex: 1; */
@@ -180,7 +183,6 @@
 
     overflow: hidden;
     border-radius: 15px;
-
 }
 
 #main_contents .container .title_menu .creator_video ul li a .creator_img1 {
@@ -228,20 +230,24 @@
 
 #main_contents .container .title_menu .creator_video ul li .text_area {
     flex: 2;
-    padding: 5px 0 5px 15px;
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #main_contents .container .title_menu .creator_video ul li .text_area .title {
     font-weight: 700;
     font-size: 18px;
     text-align: left;
-    margin: 5px;
+    /* margin: 5px; */
 }
 
 #main_contents .container .title_menu .creator_video ul li .text_area .view {
     text-align: left;
     color: rgb(169, 164, 178);
-    margin: 15px 5px 5px 5px;
+    /* margin: 15px 5px 5px 5px; */
 }
 
 
@@ -266,8 +272,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    margin-bottom: 20px;
 
+}
 
 #main_contents .container .best_video .container ul {
     display: flex;
@@ -285,6 +292,11 @@
 
     position: relative;
 
+}
+
+#main_contents .container .best_video .container ul a .text_area {
+    text-align-last: left;
+    line-height: 1.2;
 }
 
 #main_contents .container .best_video .container ul a .img .rank {
@@ -425,13 +437,7 @@
     text-decoration: underline;
 }
 
-#main_contents .container .best_video .text_area {
-    margin-bottom: 20px;
-    display: flex;
 
-    text-align: center;
-    align-items: center;
-}
 
 #main_contents .container .best_video .text_area h3 {
     font-size: 22px;
@@ -444,6 +450,7 @@
     font-weight: 700;
     font-size: 25px;
     color: rgb(169, 164, 178);
+
 }
 
 #main_contents .container .best_video .text_area .information {
@@ -478,9 +485,10 @@
 #main_contents .container .news2 .text_area h3 {
     text-align: left;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 22px;
 
     margin: 20px auto;
+
 }
 
 #main_contents .container .news2 .news2_container {
@@ -709,11 +717,11 @@
 
 #main_contents .container .news_gallery h3 {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 22px;
     width: 100%;
     text-align: left;
 
-    margin: 15px auto;
+    margin: 20px auto;
 }
 
 #main_contents .container .news_gallery ul.gallery_container {
@@ -793,7 +801,7 @@
 #main_contents .container .news_gallery .gallery_container .gallery_sub li a .title {
     color: #fff;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 20px;
 
     position: absolute;
     bottom: 20px;
@@ -803,11 +811,82 @@
 }
 
 
-
 /* end news_gallery //////////////////////////////////////////////////////// */
 
 
+/* begin shopping //////////////////////////////////////////////////////// */
 
 #main_contents .container .shopping {
-    border: 1px solid red;
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+
 }
+
+#main_contents .container .shopping h3 {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: left;
+
+    margin-top: 15px;
+
+}
+
+#main_contents .container .shopping ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main_contents .container .shopping ul li {
+    padding-top: 15px;
+}
+
+#main_contents .container .shopping ul li a .img {
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+#main_contents .container .shopping ul li a .img1 {
+    background: url("/img/shopping1.jpg") no-repeat center / cover;
+}
+
+#main_contents .container .shopping ul li a .img2 {
+    background: url("/img/shopping2.jpg") no-repeat center / cover;
+}
+
+#main_contents .container .shopping ul li a .img3 {
+    background: url("/img/shopping3.jpg") no-repeat center / cover;
+}
+
+#main_contents .container .shopping ul li a .img4 {
+    background: url("/img/shopping4.jpg") no-repeat center / cover;
+}
+
+#main_contents .container .shopping ul li a .img5 {
+    background: url("/img/shopping5.jpg") no-repeat center / cover;
+}
+
+#main_contents .container .shopping ul li a .img6 {
+    background: url("/img/shopping6.jpg") no-repeat center / cover;
+}
+
+#main_contents .container .shopping ul li a .text_area {
+    margin-bottom: 15px;
+}
+
+#main_contents .container .shopping ul li a .text_area .price {
+    color: rgb(37, 101, 208);
+    font-size: 18px;
+    margin-bottom: 15px;
+
+    text-align: left;
+}
+
+#main_contents .container .shopping ul li a .text_area .title {
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* end shopping //////////////////////////////////////////////////////// */
