@@ -695,19 +695,79 @@
 }
 
 
-
-
-
 /* end news2 //////////////////////////////////////////////////////// */
 
 
 
 
 
+/* begin news_gallery //////////////////////////////////////////////////////// */
+
 
 #main_contents .container .news_gallery {
     border: 1px solid red;
 }
+
+
+#main_contents .container .news_gallery h3 {
+    font-weight: 700;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+
+    margin: 15px auto;
+}
+
+#main_contents .container .news_gallery ul.gallery_container {
+    border: 1px solid blue;
+
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_main {
+    flex: 1;
+
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_main li {
+    position: relative;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_main li a .img {
+    border: 1px solid #000;
+    height: 400px;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_main li a .img1 {
+    background: url("/img/newsgallery1.jpeg") no-repeat center / cover;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_main li a .title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+
+
+#main_contents .container .news_gallery .gallery_container .gallery_sub {
+    flex: 1;
+
+    border: 1px solid tomato;
+}
+
+
+
+
+/* end news_gallery //////////////////////////////////////////////////////// */
+
+
 
 #main_contents .container .shopping {
     border: 1px solid red;
