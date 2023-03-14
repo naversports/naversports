@@ -704,9 +704,7 @@
 /* begin news_gallery //////////////////////////////////////////////////////// */
 
 
-#main_contents .container .news_gallery {
-    border: 1px solid red;
-}
+#main_contents .container .news_gallery {}
 
 
 #main_contents .container .news_gallery h3 {
@@ -719,7 +717,6 @@
 }
 
 #main_contents .container .news_gallery ul.gallery_container {
-    border: 1px solid blue;
 
     height: fit-content;
     display: flex;
@@ -736,7 +733,6 @@
 }
 
 #main_contents .container .news_gallery .gallery_container .gallery_main li a .img {
-    border: 1px solid #000;
     height: 400px;
 }
 
@@ -748,6 +744,7 @@
     color: #fff;
     font-weight: 700;
     font-size: 26px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
 
     position: absolute;
     bottom: 30px;
@@ -759,9 +756,51 @@
 #main_contents .container .news_gallery .gallery_container .gallery_sub {
     flex: 1;
 
-    border: 1px solid tomato;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
 }
 
+#main_contents .container .news_gallery .gallery_container .gallery_sub li {
+    height: 200px;
+    width: 50%;
+
+    position: relative;
+}
+
+
+#main_contents .container .news_gallery .gallery_container .gallery_sub li a .img {
+    height: 100%;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_sub li a .img2 {
+    background: url("/img/newsgallery2.jpeg") no-repeat center / cover;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_sub li a .img3 {
+    background: url("/img/newsgallery3.jpeg") no-repeat center / cover;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_sub li a .img4 {
+    background: url("/img/newsgallery4.jpeg") no-repeat center / cover;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_sub li a .img5 {
+    background: url("/img/newsgallery5.jpeg") no-repeat center / cover;
+}
+
+#main_contents .container .news_gallery .gallery_container .gallery_sub li a .title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
 
 
 
